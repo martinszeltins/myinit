@@ -1,6 +1,6 @@
 # Compile
 ```sh
-$ make.sh myinit.c
+$ ./make.sh myinit.c
 ```
 
 # Change init program at boot time with GRUB
