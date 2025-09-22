@@ -4,6 +4,9 @@ $ ./make.sh myinit.c
 ```
 
 # Change init program at boot time with GRUB
+
+NOTE: Make sure the init program is executable!
+
 You can change which **init program** (or any kernel parameter, really) your Linux system uses by editing the **GRUB boot entry at boot time**. You don’t have to rebuild GRUB config for a one-time test; you can override it interactively.
 
 Here’s how it works step by step:
